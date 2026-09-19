@@ -3,6 +3,7 @@ name: Build Latest Task
 on:
   push:
     branches: [ '**' ]
+  pull_request:
 
 jobs:
   build:
